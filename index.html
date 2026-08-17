@@ -10,6 +10,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;1,9..144,300&family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300;1,400&family=Jost:wght@300;400;500&display=swap" rel="stylesheet" />
 <link rel="stylesheet" href="style.css" />
+<link rel="stylesheet" href="cookie-banner.css" />
 </head>
 <body id="topo">
 
@@ -19,15 +20,15 @@
       <img class="brand__logo" src="Assets/logo-bruna-campos-psiquiatria-psicanalise.webp" alt="Bruna Campos — Clínica Geral, Psiquiatria e Psicanálise" height="46" />
     </a>
     <nav class="nav" id="nav">
-      <a href="#sinais"><span>Sinais</span></a>
+      <a href="#topo"><span>Início</span></a>
       <a href="#servicos"><span>Serviços</span></a>
       <a href="#sobre"><span>Sobre</span></a>
       <a href="#faq"><span>Dúvidas</span></a>
       <a href="#localizacao"><span>Contato</span></a>
     </nav>
     <div class="header__acoes">
-      <a class="btn btn--sm" href="https://wa.me/5521975906877?text=Ol%C3%A1%2C%20Dra.%20Bruna!%20Gostaria%20de%20agendar%20uma%20consulta." target="_blank" rel="noopener">Agendar</a>
-      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav">
+      <a class="btn btn--sm" href="https://wa.me/5521975906877?text=Ol%C3%A1%2C%20vim%20atrav%C3%A9s%20do%20site%20e%20gostaria%20de%20agendar%20uma%20consulta." target="_blank" rel="noopener">Agendar</a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="drawer">
         <span></span><span></span><span></span>
       </button>
     </div>
@@ -43,15 +44,20 @@
         <h1 class="rv">Por trás de cada sintoma existe <em class="em">uma pessoa</em>.</h1>
         <p class="hero__lead rv">Cuidado integral que une Clínica Geral, Psiquiatria e Psicanálise — com escuta ativa, empatia e um plano de tratamento pensado para você. Atendimento presencial no Recreio dos Bandeirantes, online e domiciliar.</p>
         <div class="hero__cta rv">
-          <a class="btn" href="https://wa.me/5521975906877?text=Ol%C3%A1%2C%20Dra.%20Bruna!%20Gostaria%20de%20agendar%20uma%20consulta." target="_blank" rel="noopener">Agendar pelo WhatsApp</a>
-          <span>Sexta 8h–18h · Sábado 8h–16h · Atendimento particular</span>
+          <a class="btn" href="https://wa.me/5521975906877?text=Ol%C3%A1%2C%20vim%20atrav%C3%A9s%20do%20site%20e%20gostaria%20de%20agendar%20uma%20consulta." target="_blank" rel="noopener">Agendar pelo WhatsApp</a>
+        </div>
+        <div class="hero__selos rv">
+          <span><strong>CRM</strong> 52.0123363-7</span>
+          <span class="hero__selos-sep"></span>
+          <span>Pós-graduada em <strong>Psiquiatria</strong></span>
+          <span class="hero__selos-sep"></span>
+          <span>Consultório desde <strong>2022</strong></span>
         </div>
       </div>
       <figure class="hero__fig rv">
-        <div class="moldura">
-          <div class="ph"><span>foto do consultório<br />(vertical 3:4)</span></div>
+        <div class="moldura" id="hero-moldura">
+          <img src="Assets/dra-bruna-campos-consultorio-jaleco-sorriso.webp" alt="Dra. Bruna Campos, médica pós-graduada em Psiquiatria e psicanalista, em seu consultório no Recreio dos Bandeirantes" loading="eager" />
         </div>
-        <figcaption>Espaço reservado para foto real do consultório</figcaption>
       </figure>
     </div>
   </section>
@@ -62,7 +68,6 @@
         <p class="overline">Quando buscar ajuda</p>
         <h2 class="rv">Cuidar da mente é um ato de coragem</h2>
         <p>Muitos sinais são tratados como cansaço ou fase difícil. Reconhecê-los é o primeiro passo — e não é preciso esperar chegar ao limite para pedir ajuda.</p>
-        <a class="link-sub" href="https://wa.me/5521975906877?text=Ol%C3%A1%2C%20Dra.%20Bruna!%20Gostaria%20de%20conversar%20sobre%20o%20meu%20caso." target="_blank" rel="noopener">Conversar sobre o meu caso</a>
       </div>
       <div class="sinais__grid">
         <article class="sinal rv">
@@ -97,6 +102,26 @@
         </article>
       </div>
     </div>
+
+    <div class="wrap">
+      <div class="antes-depois rv">
+        <div class="antes-depois__fotos">
+          <figure class="antes-depois__foto">
+            <img src="Assets/problema-ansiedade-noite-insonia.webp" alt="Pessoa acordada tarde da noite, insone — representação do peso da ansiedade não tratada" loading="lazy" width="400" height="400" />
+            <figcaption>Antes</figcaption>
+          </figure>
+          <span class="antes-depois__seta" aria-hidden="true">→</span>
+          <figure class="antes-depois__foto antes-depois__foto--ouro">
+            <img src="Assets/solucao-consultorio-acolhedor-luz-natural.webp" alt="Ambiente de consultório acolhedor e luminoso — representação do cuidado no tratamento" loading="lazy" width="400" height="400" />
+            <figcaption>Depois</figcaption>
+          </figure>
+        </div>
+        <div class="antes-depois__texto">
+          <p>Com o cuidado certo, esses sinais têm tratamento.</p>
+          <a class="btn antes-depois__cta" href="https://wa.me/5521975906877?text=Ol%C3%A1%2C%20vim%20atrav%C3%A9s%20do%20site%20e%20gostaria%20de%20agendar%20uma%20consulta." target="_blank" rel="noopener">Agendar avaliação</a>
+        </div>
+      </div>
+    </div>
   </section>
 
   <section class="servicos" id="servicos">
@@ -109,150 +134,271 @@
         <p>Presencial, por telemedicina ou no conforto da sua casa — você escolhe o formato, a condução clínica é a mesma.</p>
       </div>
 
-      <article class="servico rv">
-        <span class="servico__n">01</span>
-        <div>
-          <h3>Psiquiatria</h3>
-          <p>Avaliação diagnóstica cuidadosa, condução medicamentosa quando necessária e acompanhamento contínuo — sempre com explicação clara sobre cada decisão do tratamento.</p>
-        </div>
-        <ul>
-          <li>Consulta presencial no consultório</li>
-          <li>Consulta por telemedicina</li>
-          <li>Consulta domiciliar</li>
-        </ul>
-      </article>
+      <div class="servicos__grid">
+        <article class="servico-card rv">
+          <div class="servico-card__bg">
+            <img src="Assets/servico-psiquiatria.webp" alt="Ambiente sóbrio e acolhedor de consulta psiquiátrica" loading="lazy" width="640" height="800" />
+          </div>
+          <span class="servico-card__n">01</span>
+          <div class="servico-card__conteudo">
+            <h3>Psiquiatria</h3>
+            <p>Avaliação diagnóstica cuidadosa, condução medicamentosa quando necessária e acompanhamento contínuo.</p>
+            <ul>
+              <li>Consulta presencial no consultório</li>
+              <li>Consulta por telemedicina</li>
+              <li>Consulta domiciliar</li>
+            </ul>
+            <a class="servico-card__cta" href="https://wa.me/5521975906877?text=Ol%C3%A1%2C%20vim%20atrav%C3%A9s%20do%20site%20e%20gostaria%20de%20agendar%20uma%20consulta%20de%20Psiquiatria." target="_blank" rel="noopener">Agendar Psiquiatria <span>→</span></a>
+          </div>
+        </article>
 
-      <article class="servico rv">
-        <span class="servico__n">02</span>
-        <div>
-          <h3>Clínica Geral</h3>
-          <p>Cuidado da saúde física com a mesma atenção dada à mental: queixas gerais, prevenção, exames de rotina e manejo de condições crônicas.</p>
-        </div>
-        <ul>
-          <li>Consulta presencial no consultório</li>
-          <li>Consulta por telemedicina</li>
-          <li>Consulta domiciliar</li>
-        </ul>
-      </article>
+        <article class="servico-card rv">
+          <div class="servico-card__bg">
+            <img src="Assets/servico-clinica-geral.webp" alt="Ambiente clínico acolhedor de consulta de clínica geral" loading="lazy" width="640" height="800" />
+          </div>
+          <span class="servico-card__n">02</span>
+          <div class="servico-card__conteudo">
+            <h3>Clínica Geral</h3>
+            <p>Cuidado da saúde física com a mesma atenção dada à mental: queixas gerais, prevenção e manejo de condições crônicas.</p>
+            <ul>
+              <li>Consulta presencial no consultório</li>
+              <li>Consulta por telemedicina</li>
+              <li>Consulta domiciliar</li>
+            </ul>
+            <a class="servico-card__cta" href="https://wa.me/5521975906877?text=Ol%C3%A1%2C%20vim%20atrav%C3%A9s%20do%20site%20e%20gostaria%20de%20agendar%20uma%20consulta%20de%20Cl%C3%ADnica%20Geral." target="_blank" rel="noopener">Agendar Clínica Geral <span>→</span></a>
+          </div>
+        </article>
 
-      <article class="servico rv">
-        <span class="servico__n">03</span>
-        <div>
-          <h3>Psicanálise</h3>
-          <p>Sessões de terapia com escuta qualificada, para trabalhar o que sustenta o sofrimento além do sintoma, no seu tempo e com continuidade.</p>
-        </div>
-        <ul>
-          <li>Sessões presenciais de terapia</li>
-          <li>Sessões de terapia online</li>
-        </ul>
-      </article>
+        <article class="servico-card rv">
+          <div class="servico-card__bg">
+            <img src="Assets/servico-psicanalise.webp" alt="Ambiente acolhedor de sessão de psicanálise" loading="lazy" width="640" height="800" />
+          </div>
+          <span class="servico-card__n">03</span>
+          <div class="servico-card__conteudo">
+            <h3>Psicanálise</h3>
+            <p>Sessões de terapia com escuta qualificada, para trabalhar o que sustenta o sofrimento além do sintoma.</p>
+            <ul>
+              <li>Sessões presenciais de terapia</li>
+              <li>Sessões de terapia online</li>
+            </ul>
+            <a class="servico-card__cta" href="https://wa.me/5521975906877?text=Ol%C3%A1%2C%20vim%20atrav%C3%A9s%20do%20site%20e%20gostaria%20de%20agendar%20uma%20sess%C3%A3o%20de%20Psican%C3%A1lise." target="_blank" rel="noopener">Agendar Psicanálise <span>→</span></a>
+          </div>
+        </article>
+      </div>
     </div>
-  </section>
-
-  <section class="citacao">
-    <div class="ph"><span>imagem ampla — ambiente acolhedor<br />(horizontal 16:6)</span></div>
-    <blockquote class="rv">“Não trato apenas sintomas.<br />Acompanho a pessoa que os carrega.”</blockquote>
   </section>
 
   <section class="sobre" id="sobre">
     <div class="wrap sobre__in">
       <div class="sobre__foto rv rv--x">
-        <div><img class="retrato" src="Assets/dra-bruna-campos-medica-psiquiatra-retrato.webp" alt="Dra. Bruna Campos, médica pós-graduada em Psiquiatria e psicanalista, atendimento em Clínica Geral, Psiquiatria e Psicanálise no Recreio dos Bandeirantes, Rio de Janeiro" loading="lazy" /></div>
-        <img class="mono" src="Assets/favicon-bruna-campos-psiquiatria-rj.ico" alt="" loading="lazy" />
+        <div class="leque" id="sobre-leque">
+          <button class="leque__seta leque__seta--prev" type="button" aria-label="Foto anterior">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" width="18" height="18" aria-hidden="true"><path d="M15 18l-6-6 6-6"/></svg>
+          </button>
+
+          <div class="leque__palco">
+            <figure class="leque__carta is-ativa" data-carta="0">
+              <img src="Assets/dra-bruna-campos-jaleco-modelo-cerebro-mesa.webp" alt="Dra. Bruna Campos, médica pós-graduada em Psiquiatria e psicanalista, atendimento em Clínica Geral, Psiquiatria e Psicanálise no Recreio dos Bandeirantes, Rio de Janeiro" loading="lazy" />
+            </figure>
+            <figure class="leque__carta" data-carta="1">
+              <img src="Assets/dra-bruna-campos-jaleco-poltrona-pensativa.webp" alt="Dra. Bruna Campos em seu consultório de Psiquiatria" loading="lazy" />
+            </figure>
+            <figure class="leque__carta" data-carta="2">
+              <img src="Assets/dra-bruna-campos-modelo-cerebro-poltrona.webp" alt="Dra. Bruna Campos, especialista em Psiquiatria e Psicanálise" loading="lazy" />
+            </figure>
+            <figure class="leque__carta" data-carta="3">
+              <img src="Assets/dra-bruna-campos-sorriso-mao-rosto-consultorio.webp" alt="Dra. Bruna Campos em seu consultório acolhedor no Recreio dos Bandeirantes" loading="lazy" />
+            </figure>
+            <figure class="leque__carta" data-carta="4">
+              <img src="Assets/dra-bruna-campos-explicando-gesto-mao-consulta.webp" alt="Dra. Bruna Campos explicando tratamento durante consulta de Psiquiatria" loading="lazy" />
+            </figure>
+
+            <img class="leque__mono" src="Assets/favicon-bruna-campos-psiquiatria-rj.ico" alt="" loading="lazy" />
+          </div>
+
+          <button class="leque__seta leque__seta--next" type="button" aria-label="Próxima foto">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" width="18" height="18" aria-hidden="true"><path d="M9 6l6 6-6 6"/></svg>
+          </button>
+
+        </div>
+        <span class="sobre__assinatura">Bruna Campos</span>
       </div>
       <div class="sobre__texto">
         <p class="overline">Sobre a médica</p>
         <h2>Dra. Bruna Campos</h2>
-        <p>Médica generalista, pós-graduada em Psiquiatria e psicanalista. O consultório nasceu do desejo de unir Clínica Geral, Psiquiatria e Psicanálise em um cuidado verdadeiramente integral — porque saúde física e saúde mental não se separam.</p>
-        <p>Atende adolescentes, adultos e idosos, com escuta qualificada e tratamento individualizado. Cada consulta considera a história, o contexto e o ritmo de quem está ali — não apenas o quadro clínico.</p>
-        <dl class="credenciais">
-          <div><dt>Registro profissional</dt><dd>CRM 52.0123363-7</dd></div>
-          <div><dt>Formação</dt><dd>Pós-graduada em Psiquiatria</dd></div>
-          <div><dt>Abordagem</dt><dd>Psicanálise</dd></div>
-          <div><dt>Consultório desde</dt><dd>07 · 07 · 2022</dd></div>
-        </dl>
+        <blockquote class="sobre__citacao">
+          <span class="sobre__aspas" aria-hidden="true">“</span>
+          Cuidar da mente é um ato de coragem — e cada história merece ser ouvida por inteiro.
+        </blockquote>
+        <div class="sobre__corpo">
+          <p><span class="sobre__capitular">M</span>édica generalista, pós-graduada em Psiquiatria e psicanalista. O consultório nasceu do desejo de unir Clínica Geral, Psiquiatria e Psicanálise em um cuidado verdadeiramente integral — porque saúde física e saúde mental não se separam.</p>
+          <p>Atende adolescentes, adultos e idosos, com escuta qualificada e tratamento individualizado. Cada consulta considera a história, o contexto e o ritmo de quem está ali — não apenas o quadro clínico.</p>
+        </div>
+        <p class="sobre__crm">Registro profissional — CRM 52.0123363-7</p>
       </div>
     </div>
   </section>
 
   <section class="numeros" id="credibilidade">
     <div class="wrap">
-      <p class="overline">Confiança construída com dados reais</p>
-      <div class="numeros__grid">
-        <div><strong data-count="2022">2022</strong><p>Consultório desde</p></div>
-        <div><strong data-count="3">3</strong><p>Especialidades integradas</p></div>
-        <div><strong data-count="8">8</strong><p>Bairros com atendimento domiciliar</p></div>
+      <div class="processo">
+        <div class="processo__head">
+          <p class="overline">Como funciona</p>
+          <h3>Do primeiro contato ao seu plano de cuidado</h3>
+          <p>Um processo simples e transparente, pensado para você chegar à primeira consulta com clareza sobre cada etapa.</p>
+        </div>
+
+        <div class="processo__trilha">
+          <div class="processo__linha" aria-hidden="true"><span class="processo__linha-preenchida"></span></div>
+
+          <article class="processo__passo rv">
+            <span class="processo__num">01</span>
+            <h4>Contato inicial</h4>
+            <p>Você chama no WhatsApp e conta, com suas palavras, o que está sentindo ou buscando.</p>
+          </article>
+
+          <article class="processo__passo rv">
+            <span class="processo__num">02</span>
+            <h4>Alinhamento</h4>
+            <p>Combinamos juntas o formato — presencial, online ou domiciliar —, horário e valores, sem letras miúdas.</p>
+          </article>
+
+          <article class="processo__passo rv">
+            <span class="processo__num">03</span>
+            <h4>Primeira consulta</h4>
+            <p>Avaliação cuidadosa, com tempo dedicado à sua história — não apenas ao sintoma que trouxe você aqui.</p>
+          </article>
+
+          <article class="processo__passo rv">
+            <span class="processo__num">04</span>
+            <h4>Plano de cuidado</h4>
+            <p>Acompanhamento contínuo, ajustado ao seu ritmo, com a mesma médica em todas as etapas.</p>
+          </article>
+        </div>
+
+        <div class="processo__cta">
+          <a class="btn" href="https://wa.me/5521975906877?text=Ol%C3%A1%2C%20vim%20atrav%C3%A9s%20do%20site%20e%20gostaria%20de%20iniciar%20meu%20atendimento." target="_blank" rel="noopener">Iniciar pelo WhatsApp</a>
+        </div>
       </div>
-      <p class="numeros__nota">Perfil verificado no Google · avaliações de pacientes em breve nesta página.</p>
     </div>
   </section>
 
   <section class="faq" id="faq">
-    <div class="wrap faq__in">
+    <div class="wrap">
       <div class="faq__head">
         <p class="overline">Dúvidas frequentes</p>
-        <h2>Antes da<br />primeira consulta</h2>
+        <h2>Perguntas que chegam antes da primeira consulta</h2>
+        <p class="faq__nota">Selecione uma pergunta para ler a resposta da Dra. Bruna, como uma carta pessoal.</p>
       </div>
-      <div class="faq__lista">
-        <div class="faq__item" data-aberto="true">
-          <button class="faq__btn" type="button" aria-expanded="true"><span>A consulta é particular? Aceita convênio?</span><span class="faq__sinal">+</span></button>
-          <div class="faq__resposta"><p>O atendimento é exclusivamente particular, sem convênios. Os valores e as formas de pagamento são informados no contato pelo WhatsApp, antes do agendamento.</p></div>
+
+      <div class="cartas" id="faq-cartas">
+        <div class="cartas__perguntas">
+          <button class="carta-pergunta is-ativa" type="button" data-carta="1" aria-expanded="true">
+            <span class="carta-pergunta__num">01</span>
+            A consulta é particular? Aceita convênio?
+          </button>
+          <button class="carta-pergunta" type="button" data-carta="2" aria-expanded="false">
+            <span class="carta-pergunta__num">02</span>
+            Qual a diferença entre psiquiatria e psicanálise?
+          </button>
+          <button class="carta-pergunta" type="button" data-carta="3" aria-expanded="false">
+            <span class="carta-pergunta__num">03</span>
+            Como funciona a consulta por telemedicina?
+          </button>
+          <button class="carta-pergunta" type="button" data-carta="4" aria-expanded="false">
+            <span class="carta-pergunta__num">04</span>
+            Atende adolescentes e idosos?
+          </button>
         </div>
-        <div class="faq__item" data-aberto="false">
-          <button class="faq__btn" type="button" aria-expanded="false"><span>Qual a diferença entre psiquiatria e psicanálise no meu tratamento?</span><span class="faq__sinal">+</span></button>
-          <div class="faq__resposta"><p>A psiquiatria avalia o quadro clínico e, quando indicado, conduz o tratamento medicamentoso. A psicanálise trabalha a história e os sentidos por trás do sofrimento, em sessões de terapia. Aqui as duas frentes podem caminhar juntas, com a mesma médica acompanhando o processo.</p></div>
-        </div>
-        <div class="faq__item" data-aberto="false">
-          <button class="faq__btn" type="button" aria-expanded="false"><span>Como funciona a consulta por telemedicina?</span><span class="faq__sinal">+</span></button>
-          <div class="faq__resposta"><p>É uma consulta por vídeo, com a mesma duração e conduta da presencial, respeitando as normas do CFM. Você recebe o link e, quando necessário, receita e atestados em formato digital assinado.</p></div>
-        </div>
-        <div class="faq__item" data-aberto="false">
-          <button class="faq__btn" type="button" aria-expanded="false"><span>Em quais bairros há atendimento domiciliar?</span><span class="faq__sinal">+</span></button>
-          <div class="faq__resposta"><p>Recreio dos Bandeirantes, Vargem Grande, Vargem Pequena, Campo Grande, Barra da Tijuca, Freguesia, Jacarepaguá e Anil. Outras regiões podem ser consultadas pelo WhatsApp.</p></div>
-        </div>
-        <div class="faq__item" data-aberto="false">
-          <button class="faq__btn" type="button" aria-expanded="false"><span>Preciso levar exames ou documentos?</span><span class="faq__sinal">+</span></button>
-          <div class="faq__resposta"><p>Leve documento com foto, exames recentes se tiver e a lista de medicamentos em uso, incluindo dose. Relatórios de outros profissionais também ajudam, mas nada disso é obrigatório na primeira consulta.</p></div>
-        </div>
-        <div class="faq__item" data-aberto="false">
-          <button class="faq__btn" type="button" aria-expanded="false"><span>Atende adolescentes e idosos?</span><span class="faq__sinal">+</span></button>
-          <div class="faq__resposta"><p>Sim. O atendimento contempla adolescentes, adultos e idosos. Para adolescentes, a presença de um responsável é necessária no primeiro atendimento.</p></div>
+
+        <div class="cartas__papel">
+          <span class="carta__aspas" aria-hidden="true">“</span>
+          <article class="carta is-ativa" data-carta="1">
+            <p class="carta__corpo">O atendimento é exclusivamente particular, sem convênios. Os valores e as formas de pagamento são informados no contato pelo WhatsApp, antes do agendamento.</p>
+            <p class="carta__assinatura">Bruna Campos</p>
+          </article>
+          <article class="carta" data-carta="2">
+            <p class="carta__corpo">A psiquiatria avalia o quadro clínico e, quando indicado, conduz o tratamento medicamentoso. A psicanálise trabalha a história e os sentidos por trás do sofrimento, em sessões de terapia. Aqui as duas frentes podem caminhar juntas, com a mesma médica acompanhando o processo.</p>
+            <p class="carta__assinatura">Bruna Campos</p>
+          </article>
+          <article class="carta" data-carta="3">
+            <p class="carta__corpo">É uma consulta por vídeo, com a mesma duração e conduta da presencial, respeitando as normas do CFM. Você recebe o link e, quando necessário, receita e atestados em formato digital assinado.</p>
+            <p class="carta__assinatura">Bruna Campos</p>
+          </article>
+          <article class="carta" data-carta="4">
+            <p class="carta__corpo">Sim. O atendimento contempla adolescentes, adultos e idosos. Para adolescentes, a presença de um responsável é necessária no primeiro atendimento.</p>
+            <p class="carta__assinatura">Bruna Campos</p>
+          </article>
+
+          <a class="link-sub carta__cta" href="https://wa.me/5521975906877?text=Ol%C3%A1%2C%20vim%20atrav%C3%A9s%20do%20site%20e%20gostaria%20de%20tirar%20uma%20d%C3%BAvida%20com%20a%20equipe." target="_blank" rel="noopener">Não encontrou sua dúvida? Perguntar pelo WhatsApp</a>
         </div>
       </div>
     </div>
   </section>
 
   <section class="local" id="localizacao">
+    <div class="local__blob" aria-hidden="true"></div>
     <div class="wrap local__in">
-      <div class="local__info">
+      <div class="local__info rv">
         <p class="overline">Localização</p>
         <h2>Recreio dos Bandeirantes</h2>
         <p class="local__end">Avenida das Américas, 18.000 — sala 605A<br />Recreio dos Bandeirantes · Rio de Janeiro / RJ<br />CEP 22790-704</p>
         <div class="local__dados">
-          <p><strong>Horário</strong>Sexta-feira 8h–18h · Sábado 8h–16h</p>
-          <p><strong>Telefone e WhatsApp</strong><a href="https://wa.me/5521975906877" target="_blank" rel="noopener">(21) 97590-6877</a></p>
-          <p><strong>Atendimento domiciliar</strong>Recreio, Vargem Grande, Vargem Pequena, Campo Grande, Barra da Tijuca, Freguesia, Jacarepaguá e Anil</p>
+          <div>
+            <span class="local__icone" aria-hidden="true">✦</span>
+            <p><strong>Horário</strong>Sexta-feira 8h–18h · Sábado 8h–16h</p>
+          </div>
+          <div>
+            <span class="local__icone" aria-hidden="true">✦</span>
+            <p><strong>Telefone e WhatsApp</strong><a href="https://wa.me/5521975906877?text=Ol%C3%A1%2C%20vim%20atrav%C3%A9s%20do%20site%20e%20gostaria%20de%20agendar%20uma%20consulta." target="_blank" rel="noopener">(21) 97590-6877</a></p>
+          </div>
+          <div>
+            <span class="local__icone" aria-hidden="true">✦</span>
+            <p><strong>Atendimento domiciliar</strong>Recreio, Vargem Grande, Vargem Pequena, Campo Grande, Barra da Tijuca, Freguesia, Jacarepaguá e Anil</p>
+          </div>
         </div>
         <div class="local__acoes">
           <a class="btn" href="https://www.google.com/maps/dir/?api=1&amp;destination=Avenida%20das%20Am%C3%A9ricas%2018000%2C%20Recreio%20dos%20Bandeirantes%2C%20Rio%20de%20Janeiro%20-%20RJ%2C%2022790-704" target="_blank" rel="noopener">Como chegar</a>
           <a class="btn btn--ghost" href="https://www.instagram.com/dra_brunacampos/" target="_blank" rel="noopener">@dra_brunacampos</a>
         </div>
       </div>
-      <div class="local__mapa">
+      <div class="local__mapa rv">
         <iframe title="Mapa do consultório" src="https://www.google.com/maps?q=Avenida+das+Am%C3%A9ricas+18000+Recreio+dos+Bandeirantes+Rio+de+Janeiro&amp;output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <span class="local__selo">
+          <strong>Presencial</strong>
+          <span>Online · Domiciliar</span>
+        </span>
       </div>
     </div>
   </section>
 
   <section class="agendar" id="agendar">
+    <div class="agendar__fundo" aria-hidden="true"></div>
+    <div class="agendar__blob" aria-hidden="true"></div>
     <div class="wrap agendar__in">
-      <div class="agendar__texto">
+      <div class="agendar__texto rv">
         <p class="overline">Agendamento</p>
         <h2>O primeiro passo<br />pode ser hoje</h2>
         <p>Preencha os campos e a mensagem será aberta no WhatsApp, já organizada — assim a Dra. Bruna entende o seu caso antes do primeiro contato. Atendimento particular, sem convênio.</p>
-        <p class="agendar__nota">Se for uma emergência, procure atendimento imediato ou ligue para o CVV 188.</p>
+
+        <div class="agendar__selos">
+          <div>
+            <span class="agendar__icone" aria-hidden="true">✦</span>
+            <p><strong>Resposta ágil</strong>Direto no seu WhatsApp</p>
+          </div>
+          <div>
+            <span class="agendar__icone" aria-hidden="true">✦</span>
+            <p><strong>Sem burocracia</strong>Sem convênio, sem formulário longo</p>
+          </div>
+        </div>
       </div>
-      <form class="form" id="form-agendamento" novalidate>
+
+      <form class="form rv" id="form-agendamento" novalidate>
+        <span class="form__selo">
+          <strong>100%</strong>
+          <span>Particular</span>
+        </span>
+
         <label>
           <span>Nome completo</span>
           <input name="nome" type="text" autocomplete="name" required placeholder="Como podemos te chamar" />
@@ -280,7 +426,7 @@
           <textarea name="mensagem" rows="3" placeholder="Sem detalhes se preferir — só o essencial."></textarea>
         </label>
         <p class="form__aviso" id="form-aviso" role="status" aria-live="polite"></p>
-        <button class="btn" type="submit">Enviar pelo WhatsApp</button>
+        <button class="btn form__btn" type="submit">Enviar pelo WhatsApp</button>
         <p class="form__lgpd">Seus dados são usados apenas para o contato do agendamento.</p>
       </form>
     </div>
@@ -290,38 +436,240 @@
 
 <footer class="footer">
   <div class="wrap footer__in">
-    <div>
+    <div class="footer__brand">
       <img class="footer__logo" src="Assets/logo-bruna-campos-clinica-geral-psiquiatria-rodape.webp" alt="Bruna Campos — Clínica Geral, Psiquiatria e Psicanálise" />
       <p>Cuidado integral em Clínica Geral, Psiquiatria e Psicanálise. Presencial, online e domiciliar no Rio de Janeiro.</p>
-    </div>
-    <div>
-      <p class="footer__titulo">Contato</p>
-      <div class="footer__col">
-        <a href="https://share.google/iz8a9h7JzmaM02zVl" target="_blank" rel="noopener">Bruna Campos · Perfil no Google</a>
-        <a href="https://www.google.com/maps/dir/?api=1&amp;destination=Avenida%20das%20Am%C3%A9ricas%2018000%2C%20Recreio%20dos%20Bandeirantes%2C%20Rio%20de%20Janeiro%20-%20RJ%2C%2022790-704" target="_blank" rel="noopener">Av. das Américas, 18.000 — sala 605A<br />Recreio dos Bandeirantes · RJ</a>
-        <a href="https://wa.me/5521975906877" target="_blank" rel="noopener">(21) 97590-6877 · WhatsApp</a>
-        <a href="https://www.instagram.com/dra_brunacampos/" target="_blank" rel="noopener">@dra_brunacampos</a>
+      <p class="footer__legal">CRM 52.0123363-7<br />CNPJ 47.063.624/0001-11</p>
+      <div class="footer__social">
+        <a href="https://www.instagram.com/dra_brunacampos/" target="_blank" rel="noopener noreferrer" aria-label="Instagram @dra_brunacampos">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5" stroke="currentColor" stroke-width="1.6" /><circle cx="12" cy="12" r="4.2" stroke="currentColor" stroke-width="1.6" /><circle cx="17.4" cy="6.6" r="1.1" fill="currentColor" /></svg>
+        </a>
       </div>
     </div>
+
     <div>
-      <p class="footer__titulo">Institucional</p>
+      <p class="footer__titulo">Links rápidos</p>
       <div class="footer__col">
+        <a href="#topo">Início</a>
         <a href="#servicos">Serviços</a>
-        <a href="#sobre">Sobre a médica</a>
-        <a href="#faq">Dúvidas frequentes</a>
-        <a href="#agendar">Agendar consulta</a>
-        <p class="footer__legal">CRM 52.0123363-7<br />CNPJ 47.063.624/0001-11<br />Clínica Médica Bruna Rodrigues LTDA</p>
+        <a href="#sobre">Sobre</a>
+        <a href="#faq">Dúvidas</a>
+        <a href="#localizacao">Contato</a>
+      </div>
+    </div>
+
+    <div>
+      <p class="footer__titulo">Serviços</p>
+      <div class="footer__col">
+        <a href="#servicos">Psiquiatria</a>
+        <a href="#servicos">Clínica Geral</a>
+        <a href="#servicos">Psicanálise</a>
+      </div>
+    </div>
+
+    <div>
+      <p class="footer__titulo">Contato</p>
+      <div class="footer__col footer__contato">
+        <a href="https://share.google/iz8a9h7JzmaM02zVl" target="_blank" rel="noopener noreferrer">
+          <svg width="16" height="16" viewBox="0 0 48 48" aria-hidden="true"><path fill="#FFC107" d="M43.6 20.5H42V20H24v8h11.3c-1.6 4.7-6.1 8-11.3 8-6.6 0-12-5.4-12-12s5.4-12 12-12c3.1 0 5.9 1.2 8 3.1l5.7-5.7C34.5 6.1 29.5 4 24 4 12.9 4 4 12.9 4 24s8.9 20 20 20 20-8.9 20-20c0-1.3-.1-2.7-.4-3.5z"/><path fill="#FF3D00" d="M6.3 14.7l6.6 4.8C14.6 15.9 18.9 13 24 13c3.1 0 5.9 1.2 8 3.1l5.7-5.7C34.5 6.1 29.5 4 24 4 16.3 4 9.7 8.3 6.3 14.7z"/><path fill="#4CAF50" d="M24 44c5.4 0 10.3-2.1 14-5.5l-6.5-5.4C29.5 34.9 26.9 36 24 36c-5.2 0-9.6-3.3-11.3-7.9l-6.5 5C9.6 39.6 16.3 44 24 44z"/><path fill="#1976D2" d="M43.6 20.5H42V20H24v8h11.3c-.8 2.3-2.3 4.3-4.2 5.6l6.5 5.4C41.5 35.8 44 30.3 44 24c0-1.3-.1-2.7-.4-3.5z"/></svg>
+          <span>Bruna Campos · Perfil no Google</span>
+        </a>
+        <a href="https://www.google.com/maps/dir/?api=1&amp;destination=Avenida%20das%20Am%C3%A9ricas%2018000%2C%20Recreio%20dos%20Bandeirantes%2C%20Rio%20de%20Janeiro%20-%20RJ%2C%2022790-704" target="_blank" rel="noopener noreferrer">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 22s7-6.8 7-12.5A7 7 0 0 0 5 9.5C5 15.2 12 22 12 22Z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round" /><circle cx="12" cy="9.5" r="2.4" stroke="currentColor" stroke-width="1.6" /></svg>
+          <span>Av. das Américas, 18.000 — sala 605A<br />Recreio dos Bandeirantes · RJ</span>
+        </a>
+        <a href="https://wa.me/5521975906877?text=Ol%C3%A1%2C%20vim%20atrav%C3%A9s%20do%20site%20e%20gostaria%20de%20agendar%20uma%20consulta." target="_blank" rel="noopener noreferrer">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+          <span>(21) 97590-6877 · WhatsApp</span>
+        </a>
       </div>
     </div>
   </div>
   <div class="wrap creditos">
-    <span>© Bruna Campos 2026</span>
-    <span>Desenvolvido por <a href="https://www.ag5agencia.com.br" target="_blank" rel="noopener">AG5</a> Agência</span>
+    <div class="footer-credits-left">
+      <span class="footer-credits-copy">© 2026 Clínica Médica Bruna Rodrigues LTDA</span>
+      <div class="footer-legal-links">
+        <a href="#" id="ck-prefs-link">
+          <span id="cookie-toggle" class="active">
+            <span class="ck-icon-yes">✓</span>
+            <span class="ck-icon-no">✕</span>
+            <span id="cookie-toggle-dot"></span>
+          </span>
+          Cookies
+        </a>
+        <span class="footer-legal-sep">|</span>
+        <a href="termos-e-condicoes.html">Termos e Condições</a>
+        <span class="footer-legal-sep">|</span>
+        <a href="politica-de-privacidade.html">Política de Privacidade</a>
+      </div>
+    </div>
+    <div class="footer-credits-right">Desenvolvido por <a href="https://www.ag5agencia.com.br" target="_blank" rel="noopener">AG5 Agência</a></div>
   </div>
 </footer>
 
-<a class="wa-float" href="https://wa.me/5521975906877?text=Ol%C3%A1%2C%20Dra.%20Bruna!%20Gostaria%20de%20agendar%20uma%20consulta." target="_blank" rel="noopener" aria-label="Agendar pelo WhatsApp">WhatsApp</a>
+<!-- WhatsApp Premium Experience -->
+<div class="wa-premium-container">
+  <!-- Balão de Mensagem Glassmorphism -->
+  <div id="wa-message-bubble" class="wa-bubble">
+    <button class="wa-close" id="wa-close-btn" aria-label="Fechar balão de mensagem">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" width="14" height="14" aria-hidden="true"><path d="M18 6L6 18M6 6l12 12"/></svg>
+    </button>
+    <div class="wa-content">
+      <div class="wa-header">
+        <div class="wa-avatar-wrapper">
+          <img src="Assets/dra-bruna-campos-consultorio-jaleco-sorriso.webp" alt="Dra. Bruna Campos" class="wa-avatar" width="48" height="48">
+        </div>
+        <div class="wa-info">
+          <span class="wa-name">Dra. Bruna Campos</span>
+        </div>
+      </div>
+      <div id="wa-typing" class="wa-typing">
+        <span></span><span></span><span></span>
+      </div>
+      <div id="wa-real-message" class="wa-message-text" style="display:none;">
+        <p>Olá! 👋 Estamos à disposição para tirar suas dúvidas. <strong>Atendimento humanizado e individualizado.</strong></p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Botão Flutuante Redondo -->
+  <a href="https://wa.me/5521975906877?text=Ol%C3%A1%2C%20vim%20atrav%C3%A9s%20do%20site%20e%20gostaria%20de%20agendar%20uma%20consulta."
+     class="wa-float-btn" target="_blank" rel="noopener noreferrer"
+     id="wa-main-btn" aria-label="Fale conosco pelo WhatsApp">
+    <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" width="30" height="30">
+      <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+    </svg>
+    <span class="wa-badge" id="wa-notification" aria-hidden="true">1</span>
+  </a>
+</div>
+
+<div class="drawer-overlay" id="drawer-overlay" hidden></div>
+<aside class="drawer" id="drawer" aria-hidden="true">
+  <div class="drawer__topo">
+    <a class="drawer__logo" href="#topo">
+      <img src="Assets/logo-bruna-campos-psiquiatria-psicanalise.webp" alt="Bruna Campos — Clínica Geral, Psiquiatria e Psicanálise" height="34" />
+    </a>
+    <button class="drawer__fechar" type="button" aria-label="Fechar menu">
+      <span></span><span></span>
+    </button>
+  </div>
+  <nav class="drawer__nav" aria-label="Navegação principal">
+    <a href="#topo">Início</a>
+    <a href="#servicos">Serviços</a>
+    <a href="#sobre">Sobre</a>
+    <a href="#faq">Dúvidas</a>
+    <a href="#localizacao">Contato</a>
+  </nav>
+  <a class="btn drawer__cta" href="https://wa.me/5521975906877?text=Ol%C3%A1%2C%20vim%20atrav%C3%A9s%20do%20site%20e%20gostaria%20de%20agendar%20uma%20consulta." target="_blank" rel="noopener">Agendar pelo WhatsApp</a>
+</aside>
+
+<!-- ========== BANNER DE ACEITE ========== -->
+<div id="ck-banner" class="ck-banner" role="dialog" aria-modal="true" aria-label="Aviso de cookies" aria-live="polite" aria-hidden="true">
+    <div class="ck-banner__inner">
+        <div class="ck-banner__content">
+            <h2 class="ck-banner__title">Valorizamos sua privacidade</h2>
+            <p class="ck-banner__text">
+                Utilizamos cookies para aprimorar sua experiência de navegação, exibir conteúdo
+                personalizado e analisar nosso tráfego. Ao clicar em <strong>"Aceitar todos"</strong>,
+                você concorda com nosso uso de cookies conforme nossa
+                <a href="politica-de-privacidade.html" class="ck-banner__link">Política de Privacidade</a>.
+            </p>
+        </div>
+        <div class="ck-banner__actions">
+            <button id="ck-customize" class="ck-btn ck-btn--ghost">Personalizar</button>
+            <button id="ck-reject" class="ck-btn ck-btn--outline">Rejeitar</button>
+            <button id="ck-accept-all" class="ck-btn ck-btn--primary">Aceitar todos</button>
+        </div>
+    </div>
+</div>
+
+<!-- ========== MODAL DE PERSONALIZAÇÃO ========== -->
+<div id="ck-modal" class="ck-modal" role="dialog" aria-modal="true" aria-label="Personalizar preferências de cookies" aria-hidden="true">
+    <div class="ck-modal__overlay" id="ck-modal-overlay"></div>
+    <div class="ck-modal__box">
+        <div class="ck-modal__header">
+            <h2 class="ck-modal__title">Personalizar preferências de consentimento</h2>
+            <button class="ck-modal__close" id="ck-modal-close" aria-label="Fechar modal">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                    <path d="M18 6L6 18M6 6l12 12" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+            </button>
+        </div>
+        <div class="ck-modal__body">
+            <p class="ck-modal__intro">
+                Utilizamos cookies para ajudar você a navegar com eficiência e executar certas funções.
+                Os cookies classificados como <strong>"Necessário"</strong> são essenciais para o
+                funcionamento básico do site e não podem ser desativados.
+            </p>
+            <div class="ck-category">
+                <div class="ck-category__header">
+                    <div class="ck-category__info">
+                        <h3 class="ck-category__name">Necessário</h3>
+                        <p class="ck-category__desc">Essenciais para o funcionamento do site. Não armazenam dados pessoalmente identificáveis.</p>
+                    </div>
+                    <span class="ck-category__badge">Sempre ativo</span>
+                </div>
+            </div>
+            <div class="ck-category">
+                <div class="ck-category__header">
+                    <div class="ck-category__info">
+                        <h3 class="ck-category__name">Funcional</h3>
+                        <p class="ck-category__desc">Ajudam a executar funcionalidades como compartilhamento em mídia social e recursos de terceiros.</p>
+                    </div>
+                    <label class="ck-toggle" aria-label="Ativar cookies funcionais">
+                        <input type="checkbox" id="ck-functional" name="functional">
+                        <span class="ck-toggle__slider"></span>
+                    </label>
+                </div>
+            </div>
+            <div class="ck-category">
+                <div class="ck-category__header">
+                    <div class="ck-category__info">
+                        <h3 class="ck-category__name">Analítico</h3>
+                        <p class="ck-category__desc">Usados para entender como os visitantes interagem com o site (visitantes, taxa de rejeição, etc.).</p>
+                    </div>
+                    <label class="ck-toggle" aria-label="Ativar cookies analíticos">
+                        <input type="checkbox" id="ck-analytics" name="analytics">
+                        <span class="ck-toggle__slider"></span>
+                    </label>
+                </div>
+            </div>
+            <div class="ck-category">
+                <div class="ck-category__header">
+                    <div class="ck-category__info">
+                        <h3 class="ck-category__name">Desempenho</h3>
+                        <p class="ck-category__desc">Analisam índices de desempenho do site para oferecer melhor experiência ao visitante.</p>
+                    </div>
+                    <label class="ck-toggle" aria-label="Ativar cookies de desempenho">
+                        <input type="checkbox" id="ck-performance" name="performance">
+                        <span class="ck-toggle__slider"></span>
+                    </label>
+                </div>
+            </div>
+            <div class="ck-category">
+                <div class="ck-category__header">
+                    <div class="ck-category__info">
+                        <h3 class="ck-category__name">Publicidade</h3>
+                        <p class="ck-category__desc">Entregam anúncios personalizados com base nas páginas visitadas anteriormente.</p>
+                    </div>
+                    <label class="ck-toggle" aria-label="Ativar cookies de publicidade">
+                        <input type="checkbox" id="ck-advertising" name="advertising">
+                        <span class="ck-toggle__slider"></span>
+                    </label>
+                </div>
+            </div>
+        </div>
+        <div class="ck-modal__footer">
+            <button id="ck-modal-reject" class="ck-btn ck-btn--outline">Rejeitar</button>
+            <button id="ck-modal-save" class="ck-btn ck-btn--ghost">Salvar Preferências</button>
+            <button id="ck-modal-accept-all" class="ck-btn ck-btn--primary">Aceitar todos</button>
+        </div>
+    </div>
+</div>
+
+<button id="ck-prefs-btn" class="ck-prefs-btn" aria-label="Preferências de cookies" style="display:none;">Cookies</button>
 
 <script src="script.js" defer></script>
+<script src="cookie-banner.js" defer></script>
 </body>
 </html>
