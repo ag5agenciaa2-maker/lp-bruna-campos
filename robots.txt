@@ -1,0 +1,22 @@
+User-agent: *
+Allow: /
+
+# Crawlers de IA (GEO)
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+Sitemap: https://www.bruna-campos.ag5agencia.site/sitemap.xml
+
+# LLMs: https://www.bruna-campos.ag5agencia.site/llms.txt
