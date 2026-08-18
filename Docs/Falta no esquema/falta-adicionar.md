@@ -8,6 +8,7 @@
 
 - [ ] `email` — não encontrado no site nem no formulário de coleta ("não informado" no Dossiê-Site.md)
 - [ ] `address.streetAddress` — divergência de numeração entre fontes: formulário/site usam "18.000", Pleper/GBP usa "8.000". Confirmar o número correto com a cliente antes de validar no Rich Results Test (mantive "18.000" por ser o valor do site e do formulário oficial).
+- [ ] **Segunda unidade (Freguesia)** — cliente adicionou em 17/08/2026 um segundo endereço (Estrada de Jacarepaguá, 7.655, Freguesia, CEP 22755-155), já refletido no HTML (seção Localização) e no `llms.txt`. O `address`/`geo` do JSON-LD `MedicalClinic` continua apontando só para o Recreio (endereço vinculado ao CID/Place ID do Google Business Profile atual). Se a Freguesia também tiver perfil GBP próprio, o correto é criar uma segunda entidade `MedicalClinic` no `@graph` com seu próprio `@id`, `address`, `geo` e `identifier`; se for a mesma entidade/CNPJ atendendo em 2 endereços, avaliar usar `location` (array de `Place`) em vez de `address` único. Decisão pendente de confirmação com a cliente/agência.
 
 ## 🟡 IMPORTANTES
 
@@ -39,8 +40,8 @@
 - [x] `areaServed` — Rio de Janeiro (cidade) + 8 bairros de abrangência (Recreio dos Bandeirantes, Vargem Grande, Vargem Pequena, Campo Grande, Barra da Tijuca, Freguesia, Jacarepaguá, Anil) — lista real do formulário, não gerada por proximidade genérica
 - [x] `foundingDate` — `2022-07-07` (07/07/2022, conforme formulário)
 - [x] `founder` — Dra. Bruna Campos, CRM 52.0123363-7, com bio e Instagram pessoal
-- [x] `hasOfferCatalog` — 8 serviços reais extraídos do formulário/site (Psiquiatria, Clínica Geral e Psicanálise × presencial/telemedicina/domiciliar)
-- [x] `openingHoursSpecification` — Sexta-feira 8h–18h · Sábado 8h–16h
+- [x] `hasOfferCatalog` — 6 serviços reais extraídos do formulário/site (Psiquiatria, Clínica Geral e Psicanálise × presencial/telemedicina) — as 2 opções "domiciliar" foram removidas em 17/08/2026 a pedido da cliente (atendimento domiciliar passou a ser exceção particular, sem divulgação no site)
+- [x] `openingHoursSpecification` — atualizado em 17/08/2026 de sexta-feira para Quinta-feira 8h–18h · Sábado 8h–16h
 - [x] `logo` / `image` — URLs das imagens reais do site
 - [x] `url` — domínio padrão AG5 aplicado em todo o site: `https://brunacampos.ag5agencia.site/` (schema, OG, Twitter, canonical, robots.txt, sitemap.xml, llms.txt)
 
