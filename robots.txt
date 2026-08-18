@@ -17,6 +17,6 @@ Allow: /
 User-agent: Google-Extended
 Allow: /
 
-Sitemap: https://www.bruna-campos.ag5agencia.site/sitemap.xml
+Sitemap: https://brunacampos.ag5agencia.site/sitemap.xml
 
-# LLMs: https://www.bruna-campos.ag5agencia.site/llms.txt
+# LLMs: https://brunacampos.ag5agencia.site/llms.txt

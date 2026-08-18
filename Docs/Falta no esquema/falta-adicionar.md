@@ -42,7 +42,7 @@
 - [x] `hasOfferCatalog` — 8 serviços reais extraídos do formulário/site (Psiquiatria, Clínica Geral e Psicanálise × presencial/telemedicina/domiciliar)
 - [x] `openingHoursSpecification` — Sexta-feira 8h–18h · Sábado 8h–16h
 - [x] `logo` / `image` — URLs das imagens reais do site
-- [x] `url` — domínio padrão AG5 aplicado em todo o site: `https://www.bruna-campos.ag5agencia.site/` (schema, OG, Twitter, canonical, robots.txt, sitemap.xml, llms.txt)
+- [x] `url` — domínio padrão AG5 aplicado em todo o site: `https://brunacampos.ag5agencia.site/` (schema, OG, Twitter, canonical, robots.txt, sitemap.xml, llms.txt)
 
 ---
 

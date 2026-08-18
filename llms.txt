@@ -5,14 +5,14 @@
 Endereço: Avenida das Américas, 18.000 — sala 605A, Recreio dos Bandeirantes, Rio de Janeiro/RJ, CEP 22790-704. Telefone/WhatsApp: (21) 97590-6877. Horário: sexta-feira das 8h às 18h e sábado das 8h às 16h. CRM 52.0123363-7. CNPJ 47.063.624/0001-11. Consultório aberto desde 07/07/2022. Atendimento exclusivamente particular, sem convênios.
 
 ## Serviços
-- [Consulta presencial em Psiquiatria](https://www.bruna-campos.ag5agencia.site/#servicos): avaliação clínica e, quando indicado, tratamento medicamentoso, com a Dra. Bruna Campos.
-- [Consulta em telemedicina de Psiquiatria](https://www.bruna-campos.ag5agencia.site/#servicos): consulta por vídeo com a mesma conduta da presencial, conforme normas do CFM.
-- [Consulta domiciliar de Psiquiatria](https://www.bruna-campos.ag5agencia.site/#servicos): atendimento psiquiátrico realizado na residência do paciente.
-- [Consulta presencial em Clínica Geral](https://www.bruna-campos.ag5agencia.site/#servicos): avaliação clínica geral para adolescentes, adultos e idosos.
-- [Consulta em telemedicina de Clínica Geral](https://www.bruna-campos.ag5agencia.site/#servicos): consulta clínica geral por vídeo.
-- [Consulta domiciliar de Clínica Geral](https://www.bruna-campos.ag5agencia.site/#servicos): atendimento clínico geral realizado na residência do paciente.
-- [Sessões de terapia presenciais em Psicanálise](https://www.bruna-campos.ag5agencia.site/#servicos): escuta analítica sobre a história e os sentidos por trás do sofrimento.
-- [Sessões de terapia online em Psicanálise](https://www.bruna-campos.ag5agencia.site/#servicos): sessões de psicanálise por vídeo.
+- [Consulta presencial em Psiquiatria](https://brunacampos.ag5agencia.site/#servicos): avaliação clínica e, quando indicado, tratamento medicamentoso, com a Dra. Bruna Campos.
+- [Consulta em telemedicina de Psiquiatria](https://brunacampos.ag5agencia.site/#servicos): consulta por vídeo com a mesma conduta da presencial, conforme normas do CFM.
+- [Consulta domiciliar de Psiquiatria](https://brunacampos.ag5agencia.site/#servicos): atendimento psiquiátrico realizado na residência do paciente.
+- [Consulta presencial em Clínica Geral](https://brunacampos.ag5agencia.site/#servicos): avaliação clínica geral para adolescentes, adultos e idosos.
+- [Consulta em telemedicina de Clínica Geral](https://brunacampos.ag5agencia.site/#servicos): consulta clínica geral por vídeo.
+- [Consulta domiciliar de Clínica Geral](https://brunacampos.ag5agencia.site/#servicos): atendimento clínico geral realizado na residência do paciente.
+- [Sessões de terapia presenciais em Psicanálise](https://brunacampos.ag5agencia.site/#servicos): escuta analítica sobre a história e os sentidos por trás do sofrimento.
+- [Sessões de terapia online em Psicanálise](https://brunacampos.ag5agencia.site/#servicos): sessões de psicanálise por vídeo.
 
 ## Diferenciais
 - Cuidado integral que une Clínica Geral, Psiquiatria e Psicanálise, com a mesma médica acompanhando todo o processo.

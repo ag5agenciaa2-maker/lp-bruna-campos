@@ -28,6 +28,8 @@
 | `...banderantes (13).webp` | `dra-bruna-campos-explicando-gesto-mao-consulta.webp` | Não identificada no HTML | Sinais/Solução, Serviços (Psiquiatria) |
 | `...banderantes (14).webp` | `dra-bruna-campos-jaleco-poltrona-pensativa.webp` | Não identificada no HTML | Sobre, Sinais/Solução |
 | `...banderantes (15).webp` | `dra-bruna-campos-sorriso-mao-rosto-consultorio.webp` | Não identificada no HTML | Hero, Sobre, OG Image |
+| `img-empresa-desktop (1).webp` | `icone-bruna-campos-monograma-desktop.webp` | Não identificada no HTML | Header desktop (substituindo a logo completa) |
+| `img-empresa-mobile (1).webp` | `icone-bruna-campos-monograma-mobile.webp` | Não identificada no HTML | Reserva para header mobile / favicon alternativo |
 
 ---
 
@@ -287,6 +289,42 @@
 
 ---
 
+### `img-empresa-desktop (1).webp`
+
+**Descrição:** Monograma caligráfico da letra "B" em traço fino cursivo, tom rosé claro sobre fundo transparente, combinado com a silhueta estilizada de um cérebro (também em traço fino, na mesma cor) do qual saem pequenas borboletas voando — motivo que remete à transformação e à saúde mental. Composição vertical, 400×382px, arte pensada para fundo escuro (traço claro). É o mesmo símbolo usado na logo completa do site e no favicon, porém isolado, sem o texto "Bruna Campos" ao lado.
+
+**Contexto de uso atual:** Não identificada no HTML — imagem nova, ainda não aplicada.
+
+**Sugestões de uso no site:**
+- 🥇 **Uso principal recomendado:** Header/navbar no desktop, substituindo a logo completa (nome + símbolo) por apenas o monograma — simplifica a navbar e evita redundância visual com o nome "Dra. Bruna Campos" já em destaque na Hero.
+- 🥈 **Uso alternativo 1:** Elemento decorativo de fundo em seções com bastante espaço vazio (ex.: watermark sutil atrás de citações).
+- 🥉 **Uso alternativo 2:** Favicon alternativo, caso se queira um ícone mais elaborado que o atual.
+- ⚠️ **Evitar usar em:** Fundos claros sem tratamento de cor — a arte é desenhada em traço claro para contraste sobre fundo escuro; sobre fundo claro precisa do mesmo filtro CSS já aplicado à logo atual (inversão para tom dourado-escuro) para permanecer legível.
+
+**Novo nome sugerido (SEO):** `icone-bruna-campos-monograma-desktop.webp`
+
+**Alt text sugerido:** "Monograma B — Dra. Bruna Campos, Clínica Geral, Psiquiatria e Psicanálise"
+
+---
+
+### `img-empresa-mobile (1).webp`
+
+**Descrição:** Mesmo monograma "B" caligráfico com cérebro estilizado e borboletas descrito acima, em enquadramento mais compacto e próximo ao quadrado (200×191px) — recorte pensado para espaços pequenos como ícones de app, favicon ou header mobile.
+
+**Contexto de uso atual:** Não identificada no HTML — imagem nova, ainda não aplicada.
+
+**Sugestões de uso no site:**
+- 🥇 **Uso principal recomendado:** Reserva para uso futuro no header mobile, caso a simplificação adotada no desktop seja estendida ao mobile mais adiante (não solicitado nesta etapa).
+- 🥈 **Uso alternativo 1:** Favicon alternativo (proporção mais próxima do quadrado que a versão desktop).
+- 🥉 **Uso alternativo 2:** Ícone de app/PWA, se o site vier a ter manifest.
+- ⚠️ **Evitar usar em:** Espaços largos/horizontais — o enquadramento compacto não aproveita bem áreas wide.
+
+**Novo nome sugerido (SEO):** `icone-bruna-campos-monograma-mobile.webp`
+
+**Alt text sugerido:** "Monograma B — Dra. Bruna Campos, ícone mobile"
+
+---
+
 ## Instruções de Renomeação
 
 Lista dos comandos de renomeação a serem executados (apenas para referência — **aguardando confirmação do usuário antes de executar**):
@@ -307,6 +345,8 @@ mv "Assets/bruna-campos-psiquiatria,clínica-geral-psicanalise-recreio-dos-bande
 mv "Assets/bruna-campos-psiquiatria,clínica-geral-psicanalise-recreio-dos-banderantes (13).webp" "Assets/dra-bruna-campos-explicando-gesto-mao-consulta.webp"
 mv "Assets/bruna-campos-psiquiatria,clínica-geral-psicanalise-recreio-dos-banderantes (14).webp" "Assets/dra-bruna-campos-jaleco-poltrona-pensativa.webp"
 mv "Assets/bruna-campos-psiquiatria,clínica-geral-psicanalise-recreio-dos-banderantes (15).webp" "Assets/dra-bruna-campos-sorriso-mao-rosto-consultorio.webp"
+mv "Assets/img-empresa-desktop (1).webp" "Assets/icone-bruna-campos-monograma-desktop.webp"
+mv "Assets/img-empresa-mobile (1).webp" "Assets/icone-bruna-campos-monograma-mobile.webp"
 ```
 
 Nenhuma dessas 15 imagens está referenciada no HTML/CSS atualmente — são fotos novas, ainda não aplicadas em nenhuma seção do site. A renomeação pode ser feita com segurança, sem necessidade de atualizar referências existentes.

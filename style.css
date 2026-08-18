@@ -112,7 +112,7 @@ p { margin: 0; text-wrap: pretty; }
 .brand { display: flex; align-items: center; gap: 12px; flex: 0 0 auto; position: relative; }
 .brand__logo {
   display: block;
-  height: 46px;
+  height: 58px;
   width: auto;
   /* a arte é clara (pensada p/ fundo escuro) — filtro converte pra tom dourado-escuro legível em fundo claro */
   filter: brightness(0) saturate(100%) invert(37%) sepia(24%) saturate(944%) hue-rotate(358deg) brightness(93%) contrast(88%);
@@ -120,6 +120,10 @@ p { margin: 0; text-wrap: pretty; }
   transition: transform 420ms var(--ease), opacity 300ms ease;
 }
 .brand:hover .brand__logo { transform: scale(1.03); opacity: 1; }
+
+/* desktop usa só o monograma (ícone); mobile mantém a logo completa com o nome */
+.brand__logo--desktop { display: block; height: 52px; width: auto; }
+.brand__logo--mobile { display: none; }
 
 .nav {
   margin-left: auto;
@@ -1363,6 +1367,10 @@ body.drawer-open { overflow: hidden; }
 @media (max-width: 768px) {
   :root { --header-h: 92px; }
 
+  /* mobile volta a usar a logo completa (com o nome); desktop usa só o monograma */
+  .brand__logo--desktop { display: none; }
+  .brand__logo--mobile { display: block; height: 50px; width: auto; }
+
   /* carrossel de fotos entre o texto, de forma estratégica */
   .sobre__in { display: grid; grid-template-columns: 1fr; gap: 0; }
   .sobre__texto { display: contents; }
@@ -1578,7 +1586,7 @@ body.drawer-open { overflow: hidden; }
   .header__in { padding: 8px 8px 8px 16px; }
   .servicos__grid { grid-template-columns: 1fr; }
   .servico-card { min-height: 460px; }
-  .brand__logo { height: 42px; }
+  .brand__logo--mobile { height: 50px; }
   .sinais__grid { grid-template-columns: 1fr; }
   .sobre__aspas { font-size: 100px; top: -34px; left: -6px; }
   .leque__mono { width: 62px; height: 62px; top: -14px; right: -8px; }
